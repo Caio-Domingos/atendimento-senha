@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Pagina Inicial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./public/stylesheets/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./public/stylesheets/main.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark flex-column bg-dark flex-md-row bd-navbar .justify-content-lg-center"
+      >
+        <a class="navbar-brand" href="index.html"
+          >Atendimento por senha - Telão</a
+        >
+      </nav>
+    </header>
+    <main class="container">
+      <main class="container modal-center">
+        <div class="modal-inner card telao">
+          <div class="card-body w-100">
+            <div class="row w-100">
+              <div
+                class="col half-div d-flex justify-content-center align-items-center flex-column"
+              >
+                <p class="h4 text-center">Senha Atual</p>
+                <p class="h5 text-center" id="senha-atual"></p>
+              </div>
+              <div
+                class="col half-div d-flex justify-content-center align-items-center flex-column"
+              >
+                <p class="h4 text-center">Proximas senhas</p>
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td class="proxima-senha"></td>
+                    </tr>
+                    <tr>
+                      <td class="proxima-senha"></td>
+                    </tr>
+                    <tr>
+                      <td class="proxima-senha"></td>
+                    </tr>
+                    <tr>
+                      <td class="proxima-senha"></td>
+                    </tr>
+                    <tr>
+                      <td class="proxima-senha"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </main>
+  </body>
+  <script src="./public/js/jquery.js"></script>
+  <script src="./public/js/popper.js"></script>
+  <script src="./public/js/bootstrap.js"></script>
+  <script src="./public/js/moment.js"></script>
+  <script src="./public/js/telao.js"></script>
+</html>

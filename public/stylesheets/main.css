@@ -1,0 +1,40 @@
+html,
+body {
+  min-height: 100vh;
+}
+
+.modal-center {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-center .modal-inner {
+  min-width: 250px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.modal-center .modal-inner div.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.modal-center .modal-inner div.card-body .half-div {
+  display: flex;
+  min-height: 95%;
+  align-items: center;
+  justify-content: center;
+}
+.modal-center .modal-inner a {
+  margin: 10px;
+}
+.modal-center .telao {
+  width: 50vw;
+  min-height: 50vh;
+}
+
+/*# sourceMappingURL=main.css.map */

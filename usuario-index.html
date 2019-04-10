@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Pagina Inicial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./public/stylesheets/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./public/stylesheets/main.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark flex-column bg-dark flex-md-row bd-navbar .justify-content-lg-center"
+      >
+        <a class="navbar-brand" href="index.html"
+          >Atendimento por senha - Usuário</a
+        >
+      </nav>
+    </header>
+    <main class="container modal-center">
+      <div class="modal-inner card">
+        <div class="card-body d-none" id="campo-senha-gerada">
+          <h4 class="text-center mb-5">
+            Senha <span class="text-danger" id="senha-gerada"></span>
+          </h4>
+          <div
+            class="d-flex justify-content-around align-items-center flex-row"
+          >
+            <button class="btn btn-primary mx-2" id="print">Imprimir</button>
+            <button class="btn btn-primary mx-2" id="gerar-outra-senha">Pegar nova senha</button>
+          </div>
+        </div>
+        <div class="card-body d-flex justify-content-around align-items-center" id="gerar-senha">
+          <h4>Novo Atendimento</h4>
+          <button class="btn btn-primary" id="solicita-senha">Solicitar</button>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./public/js/jquery.js"></script>
+  <script src="./public/js/popper.js"></script>
+  <script src="./public/js/bootstrap.js"></script>
+  <script src="./public/js/moment.js"></script>
+  <script src="./public/js/usuario.js"></script>
+</html>

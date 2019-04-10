@@ -1,0 +1,39 @@
+html,
+body {
+  min-height: 100vh;
+}
+
+.modal-center {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .modal-inner {
+    min-width: 250px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    div.card-body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .half-div {
+        display: flex;
+        min-height: 95%;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    a {
+      margin: 10px;
+    }
+  }
+  .telao {
+    width: 50vw;
+    min-height: 50vh;
+  }
+}
